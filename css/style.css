@@ -1,0 +1,564 @@
+/*
+Items Name : Ales
+Author : Ngetemplates
+-------------------------------- */
+/* ------------------------------
+  Import Google Web Font
+---------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+/* ------------------------------
+  General
+---------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Poppins';
+  background: #090909;
+  color: #dddddd;
+}
+
+#linha-vertical {
+  height: 40%;
+  width: 2px;
+  background-color: red;
+  position: absolute;
+  left: 48%;
+  bottom: 25%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 65px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #464646;
+}
+
+a:hover {
+  color: #333;
+}
+
+p {
+  margin: 5px 0 15px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* ------------------------------
+  loader
+---------------------------------*/
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #090909;
+}
+
+.loader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader .loading .aloader {
+  background: #ff0000;
+}
+
+/* ------------------------------
+  button
+---------------------------------*/
+.button {
+  padding: 12px 30px;
+  background: #ff0000;
+  color: #ffffff;
+  border: 3px solid #FF0000;
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background: #090909;
+  color: #ff0000;
+  border: 3px solid #FF0000;
+  border-color: #ff0000;
+}
+
+.button-destaque {
+  padding: 12px 30px;
+  background: #000000;
+  color: #ffffff;
+  border: 3px solid #FF0000;
+  border-radius: 30px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.button-destaque:hover {
+  transform: scale(1.1);
+  background: #090909;
+  border: 3px solid #FF0000;
+  border-color: #ff0000;
+}
+
+/* ------------------------------
+  navbar
+---------------------------------*/
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  padding: 0;
+  text-align: center;
+}
+.navbar .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #ff0000;
+}
+.navbar .navbar-brand {
+  text-align: left;
+  width: 18%;
+}
+.navbar .navbar-brand img {
+  height: 45px;
+  width: auto;
+  position: relative;
+  top: -4px;
+}
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+.navbar .navbar-toggler {
+  padding: 0;
+}
+.navbar .navbar-toggler i {
+  font-size: 32px;
+  color: #fff;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .navbar-collapse {
+  position: relative;
+  width: 60%;
+  text-align: center;
+  left: -10px;
+}
+.navbar .navbar-nav li {
+  padding: 0 10px;
+}
+.navbar .navbar-nav li a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav li a:hover {
+  color: #ff0000;
+}
+.navbar .navbar-nav li .button {
+  color: #fff;
+  margin-top: -3px;
+  display: inline-block;
+  margin-right: -15px;
+}
+.navbar .button-navbar {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+.navbar .button-navbar li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.navbar-fixed {
+  background: #090909;
+}
+
+/* ------------------------------
+  intro
+---------------------------------*/
+.intro {
+  padding-top: 210px;
+  padding-bottom: 0;
+}
+.intro .content-text {
+  position: relative;
+  top: -35px;
+}
+.intro .entry {
+  padding: 0 100px;
+}
+.intro .entry .button {
+  margin-top: 20px;
+}
+.intro span {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ff0000;
+}
+
+/* ------------------------------
+  about
+---------------------------------*/
+.about {
+  padding-top: 120px;
+}
+.about h2 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.about .content-left img {
+  margin-top: 10px;
+}
+.about .content-left p {
+  margin-top: 100px;
+}
+.about .content-right img {
+  margin-bottom: 10px;
+}
+
+/* ------------------------------
+gallery
+---------------------------------*/
+.gallery {
+  padding-top: 70px;
+}
+.gallery h2 {
+  text-align: center;
+  background: #090909;
+  display: inline-block;
+  padding: 25px;
+  margin: auto;
+  left: 50%;
+  position: relative;
+  z-index: 1;
+  transform: translate(-50%);
+}
+.gallery .divider {
+  height: 5px;
+  width: 100%;
+  background: #ff0000;
+  position: relative;
+  top: -84px;
+}
+
+/* ------------------------------
+  pricing
+---------------------------------*/
+.pricing {
+  padding-top: 140px;
+}
+.pricing .content {
+  border: 2px solid #ff0000;
+  padding: 40px;
+}
+.pricing .content ul {
+  margin-bottom: 30px;
+}
+.pricing .content ul li {
+  padding: 8px 0;
+}
+.pricing .content ul li i {
+  color: #ff0000;
+  margin-right: 15px;
+}
+
+/* ------------------------------
+  contact
+---------------------------------*/
+.contact {
+  padding-top: 120px;
+}
+.contact .icon {
+  float: left;
+  margin-right: 20px;
+}
+.contact .text {
+  overflow: hidden;
+}
+.contact .content-map {
+  margin-bottom: 40px;
+}
+.contact i {
+  height: 60px;
+  width: 60px;
+  background: #ff0000;
+  text-align: center;
+  line-height: 60px;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.contact h5 {
+  margin-top: 11px;
+}
+.contact .content-map iframe {
+  width: 100%;
+}
+.contact .open {
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  border: 3px solid #ff0000;
+  border-radius: 30px;
+  padding-top: 23%;
+}
+.contact .open h3 {
+  color: #fff;
+}
+.contact .open span {
+  font-size: 22px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* ------------------------------
+  testimonial
+---------------------------------*/
+.testimonial {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.testimonial .swiper-button-next, .testimonial .swiper-button-prev {
+  color: #fff;
+}
+.testimonial .swiper-button-next::after, .testimonial .swiper-button-prev::after {
+  font-size: 30px;
+}
+
+.testimonial .swiper .content {
+  text-align: center;
+  padding: 0 25%;
+  color: #fff;
+}
+
+.testimonial .swiper .content span {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+  color: #ddd;
+}
+
+.testimonial .swiper-slide p {
+  font-family: 'Poppins';
+  cursor: grab;
+  text-align: justify;
+  cursor: -webkit-grab;
+}
+.testimonial .swiper-slide p:active {
+  font-family: 'Poppins';
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.testimonial .swiper .content h5 {
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: #fff;
+}
+
+/* ------------------------------
+  IMC
+---------------------------------*/
+.imc .quadrado {
+  color: #fff;
+  text-align: center;
+  border: 3px solid #ff0000;
+  border-radius: 30px;
+  padding: 10%;
+  margin-bottom: 120px;
+}
+
+/* ------------------------------
+  footer
+---------------------------------*/
+footer {
+  padding: 35px 0 35px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #ff0000;
+  color: #fff;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer ul li a i {
+  font-size: 22px;
+  color: #fff;
+}
+footer ul li a i:hover {
+  font-size: 22px;
+  color: #ff4b4b;
+}
+footer .cp {
+  text-align: right;
+}
+
+/* ------------------------------
+  responsive
+---------------------------------*/
+@media (max-width: 991px) {
+  .navbar .navbar-collapse {
+    background: #090909;
+    padding-bottom: 25px;
+  }
+
+  .navbar .button-navbar {
+    display: none;
+  }
+
+  .navbar .container {
+    background: #090909;
+  }
+
+  .intro .col-md {
+    flex: 100%;
+  }
+
+  .pricing .col-md-left {
+    flex: 100%;
+  }
+
+  .contact .open {
+    padding-top: 33%;
+  }
+}
+@media (max-width: 767px) {
+  .about h2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about .content-left img {
+    margin-top: 10px;
+  }
+
+  .testimonial .swiper .content {
+    padding: 0 12%;
+  }
+
+  .contact h2 {
+    margin-top: 30px;
+  }
+
+  .contact .open {
+    padding-top: 5%;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    padding: 0 25px;
+  }
+
+  .navbar .navbar-collapse {
+    padding-top: 30px;
+  }
+
+  h1 {
+    line-height: 48px;
+    font-size: 39px;
+  }
+
+  .intro .entry {
+    padding: 0;
+  }
+
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .gallery .divider {
+    display: none;
+  }
+
+  .contact .open {
+    padding-top: 8%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  footer .cp {
+    text-align: center;
+    margin-top: 15px;
+  }
+}

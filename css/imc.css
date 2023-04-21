@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.Container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 185px;
+    background-color: #090909;
+    border: 1px solid #ff0000;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FF0000;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.input_campo {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"] {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#btn_calcular {
+    background-color: #ff0000;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex;
+    margin-left: 38%;
+    border: 3px solid #FF0000;
+    border-radius: 30px;
+}
+
+
+#btn_calcular:hover {
+    transform: scale(1.1);
+    background: #090909;
+    color: #ff0000;
+    border: 3px solid #FF0000;
+    border-color: #ff0000;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    resize: none;
+    height: 100px;
+    display: flex;
+    margin-left: 30%;
+}
