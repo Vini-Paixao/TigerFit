@@ -226,6 +226,9 @@ img {
 .navbar .navbar-nav li a:hover {
   color: #ff0000;
 }
+.navbar-nav li a:focus {
+  color: #ff0000;
+}
 .navbar .navbar-nav li .button {
   color: #fff;
   margin-top: -3px;
@@ -476,6 +479,13 @@ footer .cp {
   responsive
 ---------------------------------*/
 @media (max-width: 991px) {
+  #linha-vertical{
+    visibility: hidden;
+  }
+  .navbar-brand{
+    width: 50% !important;
+    margin-left: 25%;
+  }
   .navbar .navbar-collapse {
     background: #090909;
     padding-bottom: 25px;
@@ -502,6 +512,13 @@ footer .cp {
   }
 }
 @media (max-width: 767px) {
+  #linha-vertical{
+    visibility: hidden;
+  }
+  .navbar-brand{
+    width: 70% !important;
+    margin-left: 10%;
+  }
   .about h2 {
     padding-left: 0;
     padding-right: 0;
@@ -524,10 +541,17 @@ footer .cp {
   }
 }
 @media (max-width: 575px) {
+  #linha-vertical{
+    visibility: hidden;
+  }
   .container {
     padding: 0 25px;
   }
-
+  .navbar-brand{
+    width: 70% !important;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
   .navbar .navbar-collapse {
     padding-top: 30px;
   }

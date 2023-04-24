@@ -3,8 +3,13 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
 .Container {
-    width: 500px;
+    width: 40vw;
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
@@ -17,7 +22,7 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     text-align: center;
     color: #FF0000;
 }
@@ -26,7 +31,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
     color: #fff;
 }
 
@@ -53,15 +58,17 @@ input[type="number"] {
     background-color: #ff0000;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 15px 15px;
+    border-radius: 300px;
     border: none;
     font-size: 18px;
     font-weight: bold;
+    margin-left: 40%;
+    margin-right: 40%;
     cursor: pointer;
     transition: 0.2s;
     display: flex;
-    margin-left: 38%;
+    align-items: center;
     border: 3px solid #FF0000;
     border-radius: 30px;
 }
@@ -77,6 +84,7 @@ input[type="number"] {
 
 textarea {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -84,8 +92,44 @@ textarea {
     color: #000;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
     resize: none;
     height: 100px;
     display: flex;
-    margin-left: 30%;
 }
+
+footer{
+    width: 100%;
+}
+
+@media (max-width: 575px) {
+    .Container{
+        width: 80%;
+    }
+    .container {
+      padding: 0 25px;
+    }
+    .navbar-brand{
+      width: 70% !important;
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+    .navbar .navbar-collapse {
+      padding-top: 30px;
+    }
+  
+    h1 {
+      line-height: 48px;
+      font-size: 39px;
+    }
+  
+    footer {
+      width: 100%;
+      text-align: center;
+    }
+    footer .cp {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
