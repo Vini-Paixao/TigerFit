@@ -28,4 +28,4 @@ Pedro Henrique Leite Alves
 ## Licença
 Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE.md para obter mais informações.
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Vini1404/TigerFit/blob/main/LICENSE.md)
