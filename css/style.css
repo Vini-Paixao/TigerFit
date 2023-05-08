@@ -1,11 +1,5 @@
-/*
-Items Name : Ales
-Author : Ngetemplates
--------------------------------- */
-/* ------------------------------
-  Import Google Web Font
----------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+
 /* ------------------------------
   General
 ---------------------------------*/
@@ -94,6 +88,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 ul li {
   list-style: none;
 }
@@ -179,43 +174,53 @@ img {
   padding: 0;
   text-align: center;
 }
+
 .navbar .container {
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 2px solid #ff0000;
 }
+
 .navbar .navbar-brand {
   text-align: left;
   width: 18%;
 }
+
 .navbar .navbar-brand img {
   height: 45px;
   width: auto;
   position: relative;
   top: -4px;
 }
+
 .navbar .navbar-brand:hover {
   color: #ffffff;
 }
+
 .navbar .navbar-toggler {
   padding: 0;
 }
+
 .navbar .navbar-toggler i {
   font-size: 32px;
   color: #fff;
 }
+
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
+
 .navbar .navbar-collapse {
   position: relative;
   width: 60%;
   text-align: center;
   left: -10px;
 }
+
 .navbar .navbar-nav li {
   padding: 0 10px;
 }
+
 .navbar .navbar-nav li a {
   color: #ffffff;
   font-weight: 700;
@@ -223,23 +228,28 @@ img {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
 .navbar .navbar-nav li a:hover {
   color: #ff0000;
 }
+
 .navbar-nav li a:focus {
   color: #ff0000;
 }
+
 .navbar .navbar-nav li .button {
   color: #fff;
   margin-top: -3px;
   display: inline-block;
   margin-right: -15px;
 }
+
 .navbar .button-navbar {
   width: 20%;
   float: right;
   text-align: right;
 }
+
 .navbar .button-navbar li {
   display: inline-block;
   margin-left: 15px;
@@ -256,16 +266,20 @@ img {
   padding-top: 210px;
   padding-bottom: 0;
 }
+
 .intro .content-text {
   position: relative;
   top: -35px;
 }
+
 .intro .entry {
   padding: 0 100px;
 }
+
 .intro .entry .button {
   margin-top: 20px;
 }
+
 .intro span {
   font-size: 20px;
   text-transform: uppercase;
@@ -282,16 +296,20 @@ img {
 .about {
   padding-top: 120px;
 }
+
 .about h2 {
   padding-left: 100px;
   padding-right: 100px;
 }
+
 .about .content-left img {
   margin-top: 10px;
 }
+
 .about .content-left p {
   margin-top: 100px;
 }
+
 .about .content-right img {
   margin-bottom: 10px;
 }
@@ -302,6 +320,7 @@ gallery
 .gallery {
   padding-top: 70px;
 }
+
 .gallery h2 {
   text-align: center;
   background: #090909;
@@ -313,6 +332,7 @@ gallery
   z-index: 1;
   transform: translate(-50%);
 }
+
 .gallery .divider {
   height: 5px;
   width: 100%;
@@ -327,16 +347,20 @@ gallery
 .pricing {
   padding-top: 140px;
 }
+
 .pricing .content {
   border: 2px solid #ff0000;
   padding: 40px;
 }
+
 .pricing .content ul {
   margin-bottom: 30px;
 }
+
 .pricing .content ul li {
   padding: 8px 0;
 }
+
 .pricing .content ul li i {
   color: #ff0000;
   margin-right: 15px;
@@ -348,16 +372,20 @@ gallery
 .contact {
   padding-top: 120px;
 }
+
 .contact .icon {
   float: left;
   margin-right: 20px;
 }
+
 .contact .text {
   overflow: hidden;
 }
+
 .contact .content-map {
   margin-bottom: 40px;
 }
+
 .contact i {
   height: 60px;
   width: 60px;
@@ -368,12 +396,15 @@ gallery
   font-size: 25px;
   margin-bottom: 20px;
 }
+
 .contact h5 {
   margin-top: 11px;
 }
+
 .contact .content-map iframe {
   width: 100%;
 }
+
 .contact .open {
   color: #fff;
   height: 100%;
@@ -382,9 +413,11 @@ gallery
   border-radius: 30px;
   padding-top: 23%;
 }
+
 .contact .open h3 {
   color: #fff;
 }
+
 .contact .open span {
   font-size: 22px;
   margin-bottom: 30px;
@@ -398,10 +431,14 @@ gallery
   margin-top: 100px;
   margin-bottom: 80px;
 }
-.testimonial .swiper-button-next, .testimonial .swiper-button-prev {
+
+.testimonial .swiper-button-next,
+.testimonial .swiper-button-prev {
   color: #fff;
 }
-.testimonial .swiper-button-next::after, .testimonial .swiper-button-prev::after {
+
+.testimonial .swiper-button-next::after,
+.testimonial .swiper-button-prev::after {
   font-size: 30px;
 }
 
@@ -425,6 +462,7 @@ gallery
   text-align: justify;
   cursor: -webkit-grab;
 }
+
 .testimonial .swiper-slide p:active {
   font-family: 'Poppins';
   cursor: grabbing;
@@ -459,18 +497,22 @@ footer {
   background: #ff0000;
   color: #fff;
 }
+
 footer ul li {
   display: inline-block;
   margin-right: 10px;
 }
+
 footer ul li a i {
   font-size: 22px;
   color: #fff;
 }
+
 footer ul li a i:hover {
   font-size: 22px;
   color: #ff4b4b;
 }
+
 footer .cp {
   text-align: right;
 }
@@ -479,13 +521,15 @@ footer .cp {
   responsive
 ---------------------------------*/
 @media (max-width: 991px) {
-  #linha-vertical{
+  #linha-vertical {
     visibility: hidden;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     width: 50% !important;
     margin-left: 25%;
   }
+
   .navbar .navbar-collapse {
     background: #090909;
     padding-bottom: 25px;
@@ -493,6 +537,31 @@ footer .cp {
 
   .navbar .button-navbar {
     display: none;
+  }
+
+  .titulo {
+    margin-bottom: -40%;
+  }
+
+  .imc {
+    margin-top: -10%;
+    margin-bottom: -20%;
+  }
+
+  .open h3 {
+    font-size: 6vw;
+  }
+
+  .testimonial .content p {
+    font-size: 3.8vw;
+  }
+
+  .testimonial .swiper-button-next {
+    padding-left: 50%;
+  }
+
+  .testimonial .swiper-button-prev {
+    padding-right: 50%;
   }
 
   .navbar .container {
@@ -511,14 +580,17 @@ footer .cp {
     padding-top: 33%;
   }
 }
+
 @media (max-width: 767px) {
-  #linha-vertical{
+  #linha-vertical {
     visibility: hidden;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     width: 70% !important;
     margin-left: 10%;
   }
+
   .about h2 {
     padding-left: 0;
     padding-right: 0;
@@ -540,18 +612,22 @@ footer .cp {
     padding-top: 5%;
   }
 }
+
 @media (max-width: 575px) {
-  #linha-vertical{
+  #linha-vertical {
     visibility: hidden;
   }
+
   .container {
     padding: 0 25px;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     width: 70% !important;
     margin-top: 5%;
     margin-left: 10%;
   }
+
   .navbar .navbar-collapse {
     padding-top: 30px;
   }
@@ -581,6 +657,7 @@ footer .cp {
   footer {
     text-align: center;
   }
+
   footer .cp {
     text-align: center;
     margin-top: 15px;
