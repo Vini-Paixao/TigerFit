@@ -237,6 +237,10 @@ img {
   color: #ff0000;
 }
 
+.navbar-nav li a:active {
+  color: #ff0000;
+}
+
 .navbar .navbar-nav li .button {
   color: #fff;
   margin-top: -3px;
