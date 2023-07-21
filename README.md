@@ -27,7 +27,7 @@ O site já está hospedado, então para acessar - <br>
 
 O site foi desenvolvido pelos seguintes alunos da Etec Prof. Basilides de Godoy:
 
-Marcus Viniccius de Aguiar Paixão
+Marcus Viniccius de Aguiar Paixão<br>
 Pedro Henrique Leite Alves
 
 ## Licença
