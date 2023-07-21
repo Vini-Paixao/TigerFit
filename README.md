@@ -19,7 +19,8 @@ O objetivo do site é fornecer informações sobre a academia, seus serviços e 
 
 ## Como Usar
 
-Para usar o site, basta acessar a página principal. A navegação é intuitiva e fácil de usar, com links para cada seção na barra de navegação superior.
+Para usar o site, basta acessar a página principal. A navegação é intuitiva e fácil de usar, com links para cada seção na barra de navegação superior.<br>
+O site já está hospedado, então para acessar - <br>
 [Clique Aqui](https://vini1404.github.io/TigerFit/)
 
 ## Desenvolvedores
